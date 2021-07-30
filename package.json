@@ -9,8 +9,7 @@
     },
     "scripts": {
         "start": "nodemon -e js,graphql -w . -w .env server.js",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "lint": "eslint . --fix"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "ISC",
