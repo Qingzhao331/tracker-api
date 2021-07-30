@@ -54,7 +54,7 @@ function testWithCallbacks(callback) {
 
 async function testWithAsync() {
   console.log('\n--- testWithAsync ---');
-  const client = new MongoClient(url, { useNewUrlParser: true });
+  const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
   try {
     await client.connect();
     console.log('Connected to MongoDB URL', url);
